@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from mainapp.models import SectionView, Sportsman
+
+admin.site.register(SectionView)
+admin.site.register(Sportsman)

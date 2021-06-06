@@ -1,0 +1,14 @@
+{% extends 'mainapp/base.html' %}
+{% block content %}
+<h1>Спортсмены</h1>
+<div>
+    <ul>
+        <li>
+        {% for item in sportsmans %}
+                {{ item }}
+<!--            </a>-->
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
